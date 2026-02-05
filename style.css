@@ -1,0 +1,66 @@
+/* #speedControl {
+    visibility: hidden;
+} */
+
+body {
+    background-image: url(runepixel.jpg);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#ps {
+    display: flex;
+    justify-content: space-between;
+}
+#refresh {
+    cursor: default;
+   
+}
+
+#app {
+    background-color: rgb(206, 206, 206);
+    padding: 10px;
+}
+#svmmon {
+    background-color: #000000;
+    color: red;
+}
+
+#distOn, #delayOn, #randomOn {
+    background-color: black;
+    color: rgb(255, 0, 0);
+}
+
+#speedControl, #randomJumpIntervalControl {
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    background: #8d8d8d !important;
+    outline: none !important; 
+}
+
+#randomJumpIntervalControl {
+    opacity: 0.2;
+}
+
+#speedControl::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    width: 20px !important;
+    height: 20px !important;
+    background: #000000 !important;
+    /* cursor: pointer !important; */
+}
+
+#randomJumpIntervalControl::-webkit-slider-thumb, #speedControl::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    width: 20px !important; 
+    height: 20px !important;
+    background: #000000 !important; 
+    /* cursor: pointer !important; */
+}
+
+
+
