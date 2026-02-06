@@ -33,6 +33,12 @@ body {
     color: rgb(255, 0, 0);
 }
 
+button {
+    border: 1px solid black; 
+    height: 1.75rem;
+    width: 1.75rem;
+}
+
 #speedControl, #randomJumpIntervalControl {
     -webkit-appearance: none !important;
     appearance: none !important;
@@ -61,6 +67,7 @@ body {
     background: #000000 !important; 
     /* cursor: pointer !important; */
 }
+
 
 
 
